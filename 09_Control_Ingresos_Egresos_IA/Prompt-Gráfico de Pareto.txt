@@ -1,0 +1,1 @@
+Tengo una base de datos que se llama ingresos_egresos me puedes crear un gráfico de pareto en power bi en base a la columna descripción. Me gustaría que me dieras las medidas dax necesarias (tengo una medida base que es la suma del monto total). También te envié los nombres de las columnas.
