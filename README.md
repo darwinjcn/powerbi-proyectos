@@ -16,7 +16,7 @@
 | [**05. Control Ingresos/Gastos**](./05_Ingresos_Gastos) | [**06. Gestión de Flota**](./06_Control_Flota) |
 | ![Retail](./07_Expansion_Retail/imagenes/thumb.png) | ![P&L](./08_Estado_Resultados/imagenes/thumb.png) |
 | [**07. Expansión Retail**](./07_Expansion_Retail) | [**08. Estado de Resultados (P&L)**](./08_Estado_Resultados) |
-| ![Ingresos y Egresos IA](./09_Control_Ingresos_Egresos_IA/imagenes/01.dashboard_ingresos_gastos.png) | |
+| ![Ingresos y Egresos IA](./09_Control_Ingresos_Egresos_IA/imagenes/thumb.png) | |
 | [**09. Control Ingresos y Egresos (IA)**](./09_Control_Ingresos_Egresos_IA) | |
 
 ---
