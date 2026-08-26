@@ -1,46 +1,53 @@
-# 📈 Portafolio de Proyectos Power BI | Darwin Colmenares
+# 📊 Portafolio de Proyectos de Power BI & Analítica de Datos
 
-¡Bienvenido a mi portafolio de Business Intelligence! Aquí encontrarás una colección de dashboards enfocados en transformar datos complejos en decisiones estratégicas. Cada proyecto incluye el archivo `.pbix` y una documentación detallada de la lógica de negocio aplicada.
-
----
-
-## 🖼️ Galería de Proyectos
-*Haz clic en la imagen o en el título para ver el detalle de cada informe.*
-
-| ![Ventas](./01_Informe_Ventas/imagenes/thumb.png) | ![Dashboarding](./02_Dashboarding/imagenes/thumb.png) |
-| :---: | :---: |
-| [**01. Informe de Ventas**](./01_Informe_Ventas) | [**02. Dashboarding Avanzado**](./02_Dashboarding) |
-| ![Curso](./03_Curso_Basico/imagenes/thumb.png) | ![Jerárquico](./04_Reporte_Arbol/imagenes/thumb.png) |
-| [**03. Fundamentos Power BI**](./03_Curso_Basico) | [**04. Reporte Jerárquico**](./04_Reporte_Arbol) |
-| ![Ingresos](./05_Ingresos_Gastos/imagenes/thumb.png) | ![Flota](./06_Control_Flota/imagenes/thumb.png) |
-| [**05. Control Ingresos/Gastos**](./05_Ingresos_Gastos) | [**06. Gestión de Flota**](./06_Control_Flota) |
-| ![Retail](./07_Expansion_Retail/imagenes/thumb.png) | ![P&L](./08_Estado_Resultados/imagenes/thumb.png) |
-| [**07. Expansión Retail**](./07_Expansion_Retail) | [**08. Estado de Resultados (P&L)**](./08_Estado_Resultados) |
+¡Bienvenido a mi repositorio de proyectos de Business Intelligence y Analítica de Datos! En este espacio documento dashboards interactivos, modelos de datos dimensionales y soluciones analíticas desarrolladas principalmente en **Power BI**, **DAX**, **Power Query** e integración con herramientas de **Inteligencia Artificial (IA)**.
 
 ---
 
-## 📂 Descripción de los Proyectos Destacados
-
-| Proyecto | Descripción Técnica | Acceso |
-| :--- | :--- | :---: |
-| **08. Estado de Resultados** | Análisis financiero P&L con enfoque en margen neto (20,7%) y punto de equilibrio. Implementa esquema de estrella y DAX avanzado. | [📂 Ver Proyecto](./08_Estado_Resultados) |
-| **07. Expansión Retail** | Análisis geoespacial para la toma de decisiones sobre nuevas aperturas comerciales utilizando herramientas de mapeo. | [📂 Ver Proyecto](./07_Expansion_Retail) |
-| **06. Control de Flota** | Monitoreo operativo de activos logísticos, mantenimiento y KPIs de rendimiento de transporte. | [📂 Ver Proyecto](./06_Control_Flota) |
-| **01. Informe de Ventas** | Dashboard comercial enfocado en rentabilidad por producto, cumplimiento de cuotas y análisis regional. | [📂 Ver Proyecto](./01_Informe_Ventas) |
+## 👨‍💻 Sobre Mí
+* **Nombre:** Darwin Colmenares
+* **Especialidad:** Contador Público & Analista de Datos
+* **Ubicación:** Caracas, Venezuela
+* **Perfil:** Experiencia en control financiero, auditoría interna, modelado de datos dimensional, diseño de KPIs dinámicos y automatización de reportes.
 
 ---
 
-## 🛠️ Habilidades Técnicas
-* **Modelado de Datos:** Implementación de Star Schema (Esquema de Estrella) y tablas de dimensiones/hechos.
-* **DAX Avanzado:** Inteligencia de tiempo, variables (`VAR/RETURN`), y funciones de agregación complejas.
-* **Visualización:** Narración de datos (Data Storytelling) y diseño centrado en el usuario final.
-* **ETL:** Transformación de datos con Power Query para asegurar la integridad de la información.
+## 🚀 Proyectos Destacados
+
+| # | Proyecto | Descripción / Enfoque | Tecnologías Clave |
+| :-: | :--- | :--- | :--- |
+| **01** | [Informe de Ventas](./01_Informe_Ventas) | Análisis de ventas, margen comercial y rendimiento por categoría y región. | Power BI, DAX, Power Query |
+| **02** | [Dashboarding Avanzado](./02_Dashboarding) | Panel ejecutivo interactivo con enfoque en UI/UX y navegación fluida. | Power BI, UX/UI, DAX |
+| **03** | [Curso Básico Power BI](./03_Curso_Basico) | Fundamentos de modelado de datos, transformaciones básicas y KPIs iniciales. | Power BI, Power Query |
+| **04** | [Reporte Árbol de Descomposición](./04_Reporte_Arbol) | Análisis de causas raíz y desglose jerárquico de métricas de negocio. | Power BI, AI Visuals |
+| **05** | [Ingresos y Gastos](./05_Ingresos_Gastos) | Control de flujo de caja, balance operativo y seguimiento de presupuesto. | Power BI, DAX |
+| **06** | [Control de Flota](./06_Control_Flota) | Gestión de activos de transporte, mantenimiento, costos operativos y uso de unidades. | Power BI, DAX, Logistics Analytics |
+| **07** | [Expansión Retail](./07_Expansion_Retail) | Análisis geográfico y financiero para la apertura y rentabilidad de puntos de venta. | Power BI, Geo-Analytics, DAX |
+| **08** | [Estado de Resultados](./08_Estado_Resultados) | Estado de Pérdidas y Ganancias (P&L) interactivo con estructura contable formal. | Power BI, Financial Modeling, DAX |
+| **09** | [Control de Ingresos y Egresos (IA)](./09_Control_Ingresos_Egresos_IA) | Dashboard financiero 2025 con Análisis de Pareto (80/20) asistido por Gemini AI y KPIs dinámicos. | Power BI, DAX, Time Intelligence, Gemini AI |
 
 ---
 
-## 👤 Contacto Profesional
-¿Buscas transformar los datos de tu empresa en valor real? ¡Hablemos!
+## 🛠️ Stack Tecnológico & Herramientas
 
-* **LinkedIn:** [Darwin Colmenares](https://www.linkedin.com/in/darwin-colmenares/)
-* **Email:** [colmenaresdarwin06@gmail.com](mailto:colmenaresdarwin06@gmail.com)
-* **WhatsApp:** [Enviar Mensaje Directo](https://wa.me/tu_numero_aqui)
+* **Visualización & BI:** Power BI Desktop, Power BI Service, Tableau.
+* **Lenguajes de Consulta & Cálculo:** DAX, M (Power Query), SQL (PostgreSQL, MySQL, SQL Server), Python, R.
+* **Bases de Datos & Data Warehouse:** PostgreSQL, BigQuery, SQLite, SQL Server.
+* **Herramientas Complementarias:** Microsoft Excel, Gemini AI / Prompt Engineering, Git & GitHub.
+
+---
+
+## 📂 Estructura General del Repositorio
+
+Cada carpeta dentro de este repositorio contiene:
+1. `data/`: Archivos de origen o datos estandarizados (CSV / Excel).
+2. `imagenes/`: Capturas del modelo de datos y dashboards finales.
+3. `*.pbix`: Archivo ejecutable de Power BI Desktop.
+4. `README.md`: Documentación específica con los objetivos, arquitectura, fórmulas DAX e insights del proyecto.
+
+---
+
+## 📬 Contacto
+Si deseas conocer más sobre alguno de estos proyectos o discutir oportunidades de colaboración, puedes encontrarme en:
+* **LinkedIn:** [Darwin Colmenares](https://www.linkedin.com/) <!-- Agrega tu enlace si lo deseas -->
+* **GitHub:** [@darwinjcn](https://github.com/darwinjcn)
