@@ -37,9 +37,9 @@ El modelo de datos adopta un esquema en estrella (*Star Schema*) simple y eficie
 
 Para desarrollar las medidas DAX complejas del análisis de Pareto (80/20) para las descripciones de egresos, se utilizó la siguiente solicitud estructurada en Gemini:
 
-&gt; *"Tengo una base de datos que se llama ingresos_egresos. ¿Me puedes crear un gráfico de pareto en Power BI en base a la columna descripción? Me gustaría que me dieras las medidas DAX necesarias (tengo una medida base que es la suma del monto total). También te envié los nombres de las columnas."*
+> *"Tengo una base de datos que se llama ingresos_egresos. ¿Me puedes crear un gráfico de pareto en Power BI en base a la columna descripción? Me gustaría que me dieras las medidas DAX necesarias (tengo una medida base que es la suma del monto total). También te envié los nombres de las columnas."*
 
-&gt; *(El detalle del intercambio original se conserva en el archivo `Prompt-Gráfico de Pareto.txt`)*
+> *(El detalle del intercambio original se conserva en el archivo `Prompt-Gráfico de Pareto.txt`)*
 
 ---
 
@@ -70,3 +70,76 @@ Variacion de Saldo por Mes =
 VAR saldomesanterior = CALCULATE([Saldo Final], PREVIOUSMONTH(calendario[Fecha]))
 RETURN
 DIVIDE([Saldo Final], saldomesanterior, 0) - 1
+```
+
+### 📈 Tasas de Crecimiento y Textos Dinámicos
+
+```dax
+Tasa de Crecimiento Mensual (Ingresos) = 
+VAR IngresosMesAnterior = CALCULATE([Total Ingresos], DATEADD(calendario[Fecha], -1, MONTH))
+RETURN
+DIVIDE([Total Ingresos], IngresosMesAnterior, 0) - 1
+
+Tasa de Crecimiento Mensual (Egresos) = 
+VAR EgresosMesAnterior = CALCULATE([Total Egresos], DATEADD(calendario[Fecha], -1, MONTH))
+RETURN
+DIVIDE([Total Egresos], EgresosMesAnterior, 0) - 1
+
+Textos Dinamicos (Ingresos) = 
+IF(
+    [Tasa de Crecimiento Mensual (Ingresos)] > 0, "Aumentaron",
+    IF([Tasa de Crecimiento Mensual (Ingresos)] < 0, "Disminuyeron", "Se Mantuvieron Estable")
+)
+
+Textos Dinamicos (Egresos) = 
+IF(
+    [Tasa de Crecimiento Mensual (Egresos)] > 0, "Aumentaron",
+    IF([Tasa de Crecimiento Mensual (Egresos)] < 0, "Disminuyeron", "Se Mantuvieron Estable")
+)
+
+Icono = IF([Saldo Final] >= 1, "✅", IF([Saldo Final] <= -1, "❌", "⚠️"))
+```
+
+### 📊 Lógica del Gráfico de Pareto (Generada con IA)
+
+```dax
+Monto Acumulado Pareto = 
+VAR MontoActual = [Monto Total]
+RETURN
+SUMX(
+    FILTER(
+        ALLSELECTED(ingresos_egresos[Descripción]),
+        [Monto Total] >= MontoActual
+    ),
+    [Monto Total]
+)
+
+% Acumulado Pareto = 
+DIVIDE(
+    [Monto Acumulado Pareto],
+    CALCULATE([Monto Total], ALLSELECTED(ingresos_egresos[Descripción]))
+)
+```
+
+---
+
+## 🛠️ Herramientas Utilizadas
+
+| Herramienta | Uso |
+|-------------|-----|
+| **Power BI Desktop** | Transformación de datos (Power Query), modelado dimensional y diseño visual |
+| **DAX** | Cálculos de inteligencia de tiempo (Time Intelligence), variaciones dinámicas y análisis de Pareto |
+| **Google Gemini AI** | Asistencia en lógica DAX para la curva acumulada de Pareto |
+| **Excel / CSV** | Fuente de datos estandarizada para el período 2025 |
+
+---
+
+## 🔗 Referencias
+
+- Proyecto inspirado en el diseño interactivo de [YouTube - Dashboard Financiero](https://www.youtube.com/watch?v=EbychT6uHHE)
+
+### Personalizaciones Introducidas
+- Actualización de datos al año **2025**
+- Inclusión de KPI con indicadores condicionales visuales (Icono)
+- Narrativas dinámicas basadas en tasas de crecimiento mensual
+- Optimización DAX para Pareto asistido por IA
