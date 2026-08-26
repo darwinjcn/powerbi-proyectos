@@ -16,6 +16,8 @@
 | [**05. Control Ingresos/Gastos**](./05_Ingresos_Gastos) | [**06. Gestión de Flota**](./06_Control_Flota) |
 | ![Retail](./07_Expansion_Retail/imagenes/thumb.png) | ![P&L](./08_Estado_Resultados/imagenes/thumb.png) |
 | [**07. Expansión Retail**](./07_Expansion_Retail) | [**08. Estado de Resultados (P&L)**](./08_Estado_Resultados) |
+| ![Ingresos y Egresos IA](./09_Control_Ingresos_Egresos_IA/imagenes/01.dashboard_ingresos_gastos.png) | |
+| [**09. Control Ingresos y Egresos (IA)**](./09_Control_Ingresos_Egresos_IA) | |
 
 ---
 
@@ -23,6 +25,7 @@
 
 | Proyecto | Descripción Técnica | Acceso |
 | :--- | :--- | :---: |
+| **09. Control Ingresos y Egresos (IA)** | Dashboard de flujo de caja 2025 con Análisis de Pareto (80/20) para egresos críticos. Implementa IA (Gemini) para lógica DAX acumulada, indicadores condicionales y narrativas dinámicas. | [📂 Ver Proyecto](./09_Control_Ingresos_Egresos_IA) |
 | **08. Estado de Resultados** | Análisis financiero P&L con enfoque en margen neto (20,7%) y punto de equilibrio. Implementa esquema de estrella y DAX avanzado. | [📂 Ver Proyecto](./08_Estado_Resultados) |
 | **07. Expansión Retail** | Análisis geoespacial para la toma de decisiones sobre nuevas aperturas comerciales utilizando herramientas de mapeo. | [📂 Ver Proyecto](./07_Expansion_Retail) |
 | **06. Control de Flota** | Monitoreo operativo de activos logísticos, mantenimiento y KPIs de rendimiento de transporte. | [📂 Ver Proyecto](./06_Control_Flota) |
@@ -32,7 +35,7 @@
 
 ## 🛠️ Habilidades Técnicas
 * **Modelado de Datos:** Implementación de Star Schema (Esquema de Estrella) y tablas de dimensiones/hechos.
-* **DAX Avanzado:** Inteligencia de tiempo, variables (`VAR/RETURN`), y funciones de agregación complejas.
+* **DAX Avanzado & Prompt Engineering:** Inteligencia de tiempo, variables (`VAR/RETURN`), funciones de agregación complejas e integración con Inteligencia Artificial (Gemini AI) para generación de fórmulas.
 * **Visualización:** Narración de datos (Data Storytelling) y diseño centrado en el usuario final.
 * **ETL:** Transformación de datos con Power Query para asegurar la integridad de la información.
 
