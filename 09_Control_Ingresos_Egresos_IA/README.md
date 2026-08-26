@@ -29,7 +29,7 @@ El modelo de datos adopta un esquema en estrella (*Star Schema*) simple y eficie
 | `ingresos_egresos` | Tabla de Hechos | Registra cada transacción indicando la fecha, categoría (*Ingreso/Egreso*), tipo de flujo, descripción del movimiento, medio de pago y monto. |
 | `calendario` | Tabla de Dimensión | Tabla de tiempo conectada mediante una relación de **1 a muchos** (`1:*`) con filtrado unidireccional hacia la tabla de hechos. |
 
-![Modelo de Datos](imagenes/02.modelado_datos.jpg)
+![Modelo de Datos](imagenes/02.modelado_datos.png)
 
 ---
 
