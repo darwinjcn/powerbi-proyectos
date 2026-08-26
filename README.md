@@ -21,12 +21,12 @@
 
 ## 📂 Descripción de los Proyectos Destacados
 
-| Proyecto | Descripción Técnica |
-| :--- | :--- |
-| **08. Estado de Resultados** | Análisis financiero P&L con enfoque en margen neto (20,7%) y punto de equilibrio. Implementa esquema de estrella y DAX avanzado. |
-| **07. Expansión Retail** | Análisis geoespacial para la toma de decisiones sobre nuevas aperturas comerciales. |
-| **06. Control de Flota** | Monitoreo operativo de activos logísticos y mantenimiento. |
-| **01. Informe de Ventas** | Dashboard comercial enfocado en rentabilidad por producto y cumplimiento de cuotas. |
+| Proyecto | Descripción Técnica | Acceso |
+| :--- | :--- | :---: |
+| **08. Estado de Resultados** | Análisis financiero P&L con enfoque en margen neto (20,7%) y punto de equilibrio. Implementa esquema de estrella y DAX avanzado. | [📂 Ver Proyecto](./08_Estado_Resultados) |
+| **07. Expansión Retail** | Análisis geoespacial para la toma de decisiones sobre nuevas aperturas comerciales utilizando herramientas de mapeo. | [📂 Ver Proyecto](./07_Expansion_Retail) |
+| **06. Control de Flota** | Monitoreo operativo de activos logísticos, mantenimiento y KPIs de rendimiento de transporte. | [📂 Ver Proyecto](./06_Control_Flota) |
+| **01. Informe de Ventas** | Dashboard comercial enfocado en rentabilidad por producto, cumplimiento de cuotas y análisis regional. | [📂 Ver Proyecto](./01_Informe_Ventas) |
 
 ---
 
