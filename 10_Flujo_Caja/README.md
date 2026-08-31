@@ -1,4 +1,4 @@
-# 10 - Dashboard de Flujo de Caja (Cash Flow) 2024
+# 📊 Dashboard de Flujo de Caja (Cash Flow) 2024
 
 ## 📌 Descripción del Proyecto
 Este proyecto consiste en un **Panel Financiero de Flujo de Caja (Cash Flow)** desarrollado en Power BI para el análisis de los movimientos de tesorería, cobros, pagos, saldos operativos e indicadores de liquidez correspondientes al año **2024**.
@@ -26,6 +26,7 @@ El proyecto implementa un modelo en estrella optimizado para análisis financier
 ## 🧮 Medidas DAX Implementadas
 
 ### 💵 Métricas Base y Saldos
+
 ```dax
 Total Importe = SUM(Flujo_Caja[Importe])
 
@@ -54,9 +55,11 @@ DIVIDE(
     [Efectivo al Final del Periodo],
     CALCULATE([Efectivo al Final del Periodo], ALLSELECTED())
 )
+```
 
-📉 Control de Cuentas, Endeudamiento y Ratios
+### 📉 Control de Cuentas, Endeudamiento y Ratios
 
+```dax
 Saldo Cuentas por Cobrar = 
 VAR Cuenta_Cobrada = CALCULATE([Total Importe], Flujo_Caja[Concepto] = "Cuenta Cobrada")
 VAR Cuentas_por_Cobrar = CALCULATE([Total Importe], Flujo_Caja[Concepto] = "Cuentas por Cobrar")
@@ -88,10 +91,11 @@ Proporcion Egresos/Ingresos = DIVIDE([Total Egresos], [Total Ingresos], 0)
 Meta Ingresos = 100000
 
 Meta Egresos = 50000
+```
 
+### 📌 Mínimos y Máximos Dinámicos
 
-📌 Mínimos y Máximos Dinámicos
-
+```dax
 Valor Maximo = 
 VAR TablaMax = 
     CALCULATETABLE(
@@ -117,12 +121,14 @@ VAR TablaMin =
 VAR Min_Saldo = MINX(TablaMin, [SaldoMin])
 RETURN
     IF(Min_Saldo = [Saldo General], Min_Saldo, BLANK())
+```
 
+---
 
+## 🛠️ Herramientas y Tecnologías
 
-🛠️ Herramientas y Tecnologías
-Power BI Desktop: Transformación de datos, diseño de interfaz con lienzo personalizado SVG (fondo-dashboard.svg) y tarjetas dinámicas.
+* **Power BI Desktop:** Transformación de datos, diseño de interfaz con lienzo personalizado SVG (fondo-dashboard.svg) y tarjetas dinámicas.
 
-DAX (Data Analysis Expressions): Indicadores de liquidez, métricas relativas (ALLSELECTED), análisis operacionales y resaltado de picos (máx/mín).
+* **DAX (Data Analysis Expressions):** Indicadores de liquidez, métricas relativas (ALLSELECTED), análisis operacionales y resaltado de picos (máx/mín).
 
-Excel / Power Query: Modelado de origen de datos estandarizado (Datos-Flujo de Caja(Cash Flow).xlsx).
+* **Excel / Power Query:** Modelado de origen de datos estandarizado (Datos-Flujo de Caja(Cash Flow).xlsx).
