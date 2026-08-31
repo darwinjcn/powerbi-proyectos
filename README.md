@@ -90,6 +90,28 @@
       </a>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="./11_Panel_Cobranza">
+        <img src="./11_Panel_Cobranza/captures/01.dashboard-cobranzas.png" width="100%" alt="11. Panel de Cobranza"><br>
+        <b>11. Panel de Cobranza</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./12_Dashboard_Ventas_Empresarial">
+        <img src="./12_Dashboard_Ventas_Empresarial/captures/01.dashboard-ventas.png" width="100%" alt="12. Ventas Empresarial"><br>
+        <b>12. Ventas Empresarial</b>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <a href="./13_Reportes_Tickets_Tecnologia">
+        <img src="./13_Reportes_Tickets_Tecnologia/captures/01.dashboard-claro.png" width="50%" alt="13. Reporte de Tickets de Tecnología"><br>
+        <b>13. Reporte de Tickets de Tecnología</b>
+      </a>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -98,6 +120,9 @@
 
 | Proyecto | Descripción Técnica | Acceso |
 | :--- | :--- | :---: |
+| **13. Reporte Tickets TI** | Análisis operativo de soporte técnico (2016-2020) con ranking dinámico ponderado de agentes (volumen, satisfacción y tiempos de respuesta) y modos UI Claro/Oscuro. | [📂 Ver Proyecto](./13_Reportes_Tickets_Tecnologia) |
+| **12. Ventas Empresarial** | Dashboard comercial multipágina con análisis de ventas, costos, márgenes de ganancia, top productos/clientes y análisis geográfico por sucursales. | [📂 Ver Proyecto](./12_Dashboard_Ventas_Empresarial) |
+| **11. Panel de Cobranza** | Dashboard financiero de cuentas por cobrar, gestión de cartera, antigüedad de saldo (aging), índice de morosidad y tasa de recuperación de deuda. | [📂 Ver Proyecto](./11_Panel_Cobranza) |
 | **10. Flujo de Caja** | Panel Financiero de Cash Flow (2024) para control de tesorería, liquidez operativa, saldos de cuentas por cobrar/pagar, endeudamiento neto y resaltado dinámico de picos (máx/mín). | [📂 Ver Proyecto](./10_Flujo_Caja) |
 | **09. Control Ingresos y Egresos (IA)** | Dashboard de flujo de caja 2025 con Análisis de Pareto (80/20) para egresos críticos. Implementa IA (Gemini) para lógica DAX acumulada, indicadores condicionales y narrativas dinámicas. | [📂 Ver Proyecto](./09_Control_Ingresos_Egresos_IA) |
 | **08. Estado de Resultados** | Análisis financiero P&L con enfoque en margen neto (20,7%) y punto de equilibrio. Implementa esquema de estrella y DAX avanzado. | [📂 Ver Proyecto](./08_Estado_Resultados) |
@@ -109,9 +134,9 @@
 
 ## 🛠️ Habilidades Técnicas
 * **Modelado de Datos:** Implementación de Star Schema (Esquema de Estrella) y tablas de dimensiones/hechos.
-* **DAX Avanzado & Prompt Engineering:** Inteligencia de tiempo, variables (`VAR/RETURN`), métricas de liquidez, funciones relativas (`ALLSELECTED`) e integración con IA (Gemini AI).
-* **Visualización:** Narración de datos (Data Storytelling) y diseño centrado en el usuario final con lienzos personalizados (SVG).
-* **ETL:** Transformación de datos con Power Query para asegurar la integridad de la información financiera.
+* **DAX Avanzado & Prompt Engineering:** Inteligencia de tiempo, variables (`VAR/RETURN`), métricas de liquidez, funciones relativas (`ALLSELECTED`, `RANKX`) e integración con IA (Gemini AI).
+* **Visualización:** Narración de datos (Data Storytelling), diseño UX/UI adaptativo (Temas Claro/Oscuro) y navegación mediante marcadores (Bookmarks).
+* **ETL:** Transformación de datos con Power Query para asegurar la integridad de la información financiera y operativa.
 
 ---
 
