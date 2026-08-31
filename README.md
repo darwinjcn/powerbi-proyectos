@@ -2,6 +2,18 @@
 
 ¡Bienvenido a mi portafolio de Business Intelligence! Aquí encontrarás una colección de dashboards enfocados en transformar datos complejos en decisiones estratégicas. Cada proyecto incluye el archivo `.pbix` y una documentación detallada de la lógica de negocio aplicada.
 
+<div align="center">
+
+[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/dax/)
+[![Power Query](https://img.shields.io/badge/Power_Query-008373?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/power-query/)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Excel](https://img.shields.io/badge/Excel-107C41?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://www.microsoft.com/excel)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+
+</div>
+
 ---
 
 ## 🖼️ Galería de Proyectos
