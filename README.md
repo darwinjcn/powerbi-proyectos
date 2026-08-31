@@ -92,15 +92,15 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="./11_Panel_Cobranza">
-        <img src="./11_Panel_Cobranza/captures/01.dashboard-cobranzas.png" width="100%" alt="11. Panel de Cobranza"><br>
-        <b>11. Panel de Cobranza</b>
+      <a href="./11_Analisis_Pedidos_Proveedores">
+        <img src="./11_Analisis_Pedidos_Proveedores/captures/01.dashboard-pedidos.png" width="100%" alt="11. Análisis Pedidos Proveedores"><br>
+        <b>11. Análisis Pedidos Proveedores</b>
       </a>
     </td>
     <td align="center">
-      <a href="./12_Dashboard_Ventas_Empresarial">
-        <img src="./12_Dashboard_Ventas_Empresarial/captures/01.dashboard-ventas.png" width="100%" alt="12. Ventas Empresarial"><br>
-        <b>12. Ventas Empresarial</b>
+      <a href="./12_Panel_Cobranza">
+        <img src="./12_Panel_Cobranza/imagenes/01.dashboard-cobranza.png" width="100%" alt="12. Panel de Cobranza"><br>
+        <b>12. Panel de Cobranza</b>
       </a>
     </td>
   </tr>
@@ -121,8 +121,8 @@
 | Proyecto | Descripción Técnica | Acceso |
 | :--- | :--- | :---: |
 | **13. Reporte Tickets TI** | Análisis operativo de soporte técnico (2016-2020) con ranking dinámico ponderado de agentes (volumen, satisfacción y tiempos de respuesta) y modos UI Claro/Oscuro. | [📂 Ver Proyecto](./13_Reportes_Tickets_Tecnologia) |
-| **12. Ventas Empresarial** | Dashboard comercial multipágina con análisis de ventas, costos, márgenes de ganancia, top productos/clientes y análisis geográfico por sucursales. | [📂 Ver Proyecto](./12_Dashboard_Ventas_Empresarial) |
-| **11. Panel de Cobranza** | Dashboard financiero de cuentas por cobrar, gestión de cartera, antigüedad de saldo (aging), índice de morosidad y tasa de recuperación de deuda. | [📂 Ver Proyecto](./11_Panel_Cobranza) |
+| **12. Panel de Cobranza** | Dashboard financiero de cuentas por cobrar, gestión de cartera, antigüedad de saldo (aging), índice de morosidad y tasa de recuperación de deuda. | [📂 Ver Proyecto](./12_Panel_Cobranza) |
+| **11. Análisis Pedidos Proveedores** | Monitoreo y control de compras, gestión de pedidos a proveedores, análisis de volumen de abastecimiento y cumplimiento de entregas. | [📂 Ver Proyecto](./11_Analisis_Pedidos_Proveedores) |
 | **10. Flujo de Caja** | Panel Financiero de Cash Flow (2024) para control de tesorería, liquidez operativa, saldos de cuentas por cobrar/pagar, endeudamiento neto y resaltado dinámico de picos (máx/mín). | [📂 Ver Proyecto](./10_Flujo_Caja) |
 | **09. Control Ingresos y Egresos (IA)** | Dashboard de flujo de caja 2025 con Análisis de Pareto (80/20) para egresos críticos. Implementa IA (Gemini) para lógica DAX acumulada, indicadores condicionales y narrativas dinámicas. | [📂 Ver Proyecto](./09_Control_Ingresos_Egresos_IA) |
 | **08. Estado de Resultados** | Análisis financiero P&L con enfoque en margen neto (20,7%) y punto de equilibrio. Implementa esquema de estrella y DAX avanzado. | [📂 Ver Proyecto](./08_Estado_Resultados) |
